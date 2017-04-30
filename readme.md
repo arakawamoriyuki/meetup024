@@ -37,13 +37,12 @@ $ python --version
 [TF_PYTHON_URL](https://www.tensorflow.org/install/install_mac#TF_PYTHON_URL)
 
 ```
-$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
-# $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.1.0rc1-py3-none-any.whl
+$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.1.0-py3-none-any.whl
 $ pip install --ignore-installed --upgrade $TF_BINARY_URL
 $ python
 >> import tensorflow as tf
 >> tf.__version__
-'1.0.1'
+'1.1.0'
 ```
 
 
