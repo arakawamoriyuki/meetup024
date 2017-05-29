@@ -2,3 +2,4 @@ keras==2.0.3
 pydot-ng==1.0.0
 pydot==1.2.3
 matplotlib==1.5.1
+access-points==0.3.52
